@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
 
-const token = 'PASTE_TOKEN_TELEGRAM_DISINI';
+const token = '8570438890:AAHlPfrwK8JH2YS1sa075C8JEwZEdrI7psg';
 const PORT = process.env.PORT || 3000;
 
 const bot = new TelegramBot(token, { polling: { interval: 300, autoStart: true, params: { timeout: 10 } } });
